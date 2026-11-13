@@ -4,7 +4,8 @@
 4. python -m venv venv
 5. venv\Scripts\activate
 6. pip install sqlalchemy pymysql pymongo python-dotenv
-7. main.py실행
+7. .env파일에 db 정보 입력
+8. main.py실행
 
 book_project/
 │
