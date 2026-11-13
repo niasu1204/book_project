@@ -5,3 +5,23 @@
 5. venv\Scripts\activate
 6. pip install sqlalchemy pymysql pymongo python-dotenv
 7. main.py실행
+
+book_project/
+│
+├── venv/  # 가상환경
+│
+├── database/
+│   ├── mysql_db.py
+│   └── mongo_db.py
+│
+├── services/
+│   ├── book_service.py
+│   └── review_service.py
+│
+├── menus/
+│   ├── book_menu.py
+│   └── review_menu.py
+│
+├── .env
+├── .gitignore
+└── main.py
